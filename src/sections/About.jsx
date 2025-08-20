@@ -51,15 +51,15 @@ const About = () => {
               <Card
                 containerRef={grid2Container}
                 style={{ rotate: "10deg", top: "10%", left: "10%"}}
-                image="/logos/html.svg"/>
+                image="/assets/logos/html.svg"/>
               <Card
                 containerRef={grid2Container}
                 style={{ rotate: "-20deg", top: "10%", left: "70%"}}
-                image="/logos/css.svg"/>
+                image="/assets/logos/css.svg"/>
               <Card
                 containerRef={grid2Container}
                 style={{ rotate: "20deg", bottom: "10%", left: "70%"}}
-                image="/logos/tailwindcss.svg"/>
+                image="/assets/logos/tailwindcss.svg"/>
             </div>
         </div>
         {/* Grid 3*/}
