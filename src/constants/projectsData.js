@@ -2,25 +2,26 @@ import githubLogo from "/assets/logos/github.svg";
 
 export const projects = [
   {
-    name: "Train Route Optimizer",
+    name: "Object Recognition Application",
     description:
-      "Optimized train routes between major cities using matrices and row reduction for efficient travel planning.",
+      "Developed a mobile object recognition application using TensorFlow Lite to provide real-time auditory guidance for visually impaired users.",
     tags: [
-      { name: "Python", color: "text-[#33c2cc]" },
-      { name: "Linear Algebra", color: "text-[#57db96]" },
+      { name: "Java", color: "text-[#33c2cc]" },
+      { name: "Python", color: "text-[#57db96]" },
+      { name: "TensorFlow", color: "text-[#57db96]" }
     ],
     image: githubLogo,
-    source_code_link: "https://github.com/yourusername/train-route-optimizer",
+    source_code_link: "https://github.com/ccm108/object-recognition-app",
     live_project_link: null,
     gradientClass: "grid-blue-color",
   },
   {
-    name: "UDP Ping Client",
+    name: "Work In Progress...",
     description:
-      "Built a UDP ping client in Python to measure round-trip times using socket programming.",
+      "Programming...",
     tags: [
-      { name: "Python", color: "text-[#33c2cc]" },
-      { name: "Networking", color: "text-[#ca2f8c]" },
+      { name: "React", color: "text-[#33c2cc]" },
+      { name: "AWS", color: "text-[#ca2f8c]" },
     ],
     image: githubLogo,
     source_code_link: "https://github.com/yourusername/udp-ping-client",
