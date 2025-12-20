@@ -10,10 +10,10 @@ export const projects = [
       { name: "TypeScript", color: "text-[#57db96]" },
       { name: "MachineLearning", color: "text-[#57db96]" }
     ],
-    image: githubLogo,
+    image: "images/phish-tool.png",
     source_code_link: "https://github.com/ccm108/AI-Phishing-Tool",
     live_project_link: "https://ai-phishing-tool.vercel.app",
-    gradientClass: "grid-blue-color",
+    gradientClass: "grid-default-color",
   },
   {
     name: "Adversary Emulation & Detection Engineering",
@@ -26,7 +26,7 @@ export const projects = [
     image: githubLogo,
     source_code_link: "https://github.com/ccm108/Adversary-Emulation-and-Detection-Engineering",
     live_project_link: null,
-    gradientClass: "grid-default-color",
+    gradientClass: "grid-blue-color",
   },
   {
     name: "Portfolio Website",
