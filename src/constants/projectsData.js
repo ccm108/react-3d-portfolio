@@ -29,16 +29,16 @@ export const projects = [
     gradientClass: "grid-blue-color",
   },
   {
-    name: "Portfolio Website",
+    name: "Network Traffic Analyzer",
     description:
-      "Designed and developed my personal portfolio using React, Tailwind, and Framer Motion animations.",
+      "Developed a Python-based network traffic analyzer that captures and inspects packet data to provide insights into network activity and communication patterns.",
     tags: [
-      { name: "React", color: "text-[#5c33cc]" },
-      { name: "Tailwind", color: "text-[#4163E2]" },
+      { name: "Python", color: "text-[#5c33cc]" },
+      { name: "Cybersecurity", color: "text-[#4163E2]" },
     ],
     image: githubLogo,
-    source_code_link: "https://github.com/yourusername/portfolio",
-    live_project_link: "https://yourdomain.com",
+    source_code_link: "https://github.com/ccm108/Network-Traffic-Analyzer",
+    live_project_link: null,
     gradientClass: "grid-special-color",
   },
 ];

@@ -2,7 +2,7 @@ import { FlipWords } from "./FlipWord.jsx"
 import { motion } from "motion/react";
 
 const HeroText = () => {
-    const words = ["Software Development", "Cybersecurity", "Technology"]
+    const words = ["Cybersecurity", "Artificial Intelligence", "Technology"]
     const variants = {
         hidden: { opacity: 0, x: -50 },
         visible: { opacity: 1, x: 0 },
@@ -28,7 +28,7 @@ const HeroText = () => {
                 animate = "visible"
                 transition = {{ delay: 1.2 }}
                 >
-                    I'm a Computer Science Major <br /> passionate about
+                    I'm a Computer Science Graduate <br /> passionate about
                 </motion.p>
                 <motion.div 
                 variants={variants}

@@ -18,7 +18,7 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I'm Chris</p>
             <p className="subtext">
-              I'm an aspring Software Engineer currently pursuing a Bachelors Degree in Computer Science at Bowie State University.
+              I'm an aspring Cybersecurity Engineer currently with a Bachelors Degree in Computer Science with a Cybersecurity Focus.
             </p>
           </div>
         </div>
@@ -101,7 +101,7 @@ const About = () => {
         <div className="z-10 w-[50%] flex flex-col h-full">
             <p className="headText">Teck Skills</p>
             <p className="subtext">
-              I have experience in a variety of languages, frameworks, and tools. Check out my GitHub below.
+              I have heavy experience in Python and experience in a variety programming languages, cybersecurity and software frameworks/tools. Check out my Technical Projects below!
             </p>
             <a
               href="https://github.com/ccm108"
