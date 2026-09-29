@@ -18,7 +18,7 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I'm Chris</p>
             <p className="subtext">
-              I'm an aspring Cybersecurity Engineer currently with a Bachelors Degree in Computer Science with a Cybersecurity Focus.
+              I'm an aspiring Cybersecurity Professional with a Bachelor's degree in Computer Science and a focus in Cybersecurity.
             </p>
           </div>
         </div>
@@ -26,50 +26,48 @@ const About = () => {
         <div className="grid-default-color grid-2">
             <div ref={grid2Container} className="flex items-center justify-center w-full h-full">
               <p className="flex-items-end text-5xl text-gray-500">
-                CODING LANGUAGES
+                TOOLS & FRAMEWORKS
               </p>
               <Card
                 containerRef={grid2Container}
-                style={{ rotate: "75deg", top: "30%", left: "20%"}}
+                style={{ rotate: "10deg", top: "30%", left: "20%"}}
                 text="PYTHON"/>
               <Card
                 containerRef={grid2Container}
                 style={{ rotate: "-30deg", top: "60%", left: "45%"}}
-                text="REACT.JS"/>
+                text="POWERSHELL"/>
               <Card
                 containerRef={grid2Container}
-                style={{ rotate: "90deg", bottom: "30%", left: "70%"}}
-                text="CSS"/>
+                style={{ rotate: "17deg", bottom: "30%", left: "70%"}}
+                text="LINUX"/>
               <Card
                 containerRef={grid2Container}
                 style={{ rotate: "-45deg", top: "55%", left: "0%"}}
-                text= "HTML"/>
+                image="/assets/logos/linux.svg"/>
               <Card
                 containerRef={grid2Container}
                 style={{ rotate: "20deg", top: "10%", left: "30%"}}
-                text="JAVA"/>
+                image="/assets/logos/powershell.svg"/>
               <Card
                 containerRef={grid2Container}
                 style={{ rotate: "10deg", top: "10%", left: "10%"}}
-                image="/assets/logos/html.svg"/>
+                image="/assets/logos/python.svg"/>
               <Card
                 containerRef={grid2Container}
                 style={{ rotate: "-20deg", top: "10%", left: "70%"}}
-                image="/assets/logos/css.svg"/>
+                image="/assets/logos/splunk.svg"/>
               <Card
                 containerRef={grid2Container}
                 style={{ rotate: "20deg", bottom: "10%", left: "70%"}}
-                image="/assets/logos/tailwindcss.svg"/>
+                image="/assets/logos/kali-linux.svg"/>
             </div>
         </div>
         {/* Grid 3*/}
         <div className="grid-black-color grid-3">
-          <h3 className="headtext mb-6">Background</h3>
+          <h3 className="headtext mb-6">How I Think</h3>
           <ul className="space-y-6 text-[18px] leading-relaxed">
             {[
-              "Passionate about blending creativity with technology to solve challenges",
-              "Always exploring new tools, concepts, & technologies.",
-              "Outside of work, I’m a big sports, gaming, and cinema fan"
+              "I'm driven by understanding technology beneath the surface—how systems work, how they communicate, where vulnerabilities emerge, and how they can be secured. I enjoy not only working with technology, but creating tools and systems that solve real problems. I'm always expanding my knowledge across cybersecurity, software, systems, and emerging technologies."
             ].map((point, index) => (
               <li key={index} className="flex items-start">
                 <span className="mt-1 mr-4 flex items-center justify-center">
@@ -87,7 +85,7 @@ const About = () => {
               Take a look at my resume
             </p>
             <a
-              href="/resume.pdf"
+              href="/assets/documents/Site_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 rounded-full bg-gradient-to-r from-purple-500 via-indigo-600 to-purple-700 text-white font-semibold shadow-lg transition-transform duration-300 hover:scale-105 hover:brightness-110"
@@ -101,7 +99,7 @@ const About = () => {
         <div className="z-10 w-[50%] flex flex-col h-full">
             <p className="headText">Teck Skills</p>
             <p className="subtext">
-              I have heavy experience in Python and experience in a variety programming languages, cybersecurity and software frameworks/tools. Check out my Technical Projects below!
+              I work primarily with Python alongside cybersecurity tools, programming languages, and development technologies. I apply these skills across security, automation, networking, and software projects. Explore my technical projects below!
             </p>
             <a
               href="https://github.com/ccm108"

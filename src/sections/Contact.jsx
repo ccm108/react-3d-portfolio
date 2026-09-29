@@ -32,7 +32,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="relative flex items-center justify-center c-space section-spacing min-h-screen"
+      className="relative flex flex-col items-center justify-center c-space section-spacing min-h-screen"
     >
       {/* Particle Background */}
       <Particles
@@ -79,6 +79,9 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <p className="mt-8 text-xs text-neutral-500">
+      © {new Date().getFullYear()} Christopher Miller. All Rights Reserved.
+      </p>
     </section>
   );
 };

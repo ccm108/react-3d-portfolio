@@ -133,7 +133,33 @@ body {
   @apply p-6 bg-gradient-to-b from-[#2f4dc3] to-[#3A5FEF] rounded-2xl;
 }
 
+.grid-teal-color {
+  @apply p-6 bg-gradient-to-b from-[#176B73] to-[#12474D] rounded-2xl;
+}
 
+.grid-crimson-color {
+  @apply p-6 bg-gradient-to-b from-[#8B2942] to-[#541B30] rounded-2xl;
+}
+
+.grid-slate-color {
+  @apply p-6 bg-gradient-to-b from-[#334155] to-[#1E293B] rounded-2xl;
+}
+
+.grid-sky-color {
+  @apply p-6 bg-gradient-to-b from-[#3B82F6] to-[#2563EB] rounded-2xl;
+}
+
+.grid-cyan-color {
+  @apply p-6 bg-gradient-to-b from-[#22B8CF] to-[#168AAD] rounded-2xl;
+}
+
+.grid-emerald-color {
+  @apply p-6 bg-gradient-to-b from-[#34B77A] to-[#238A5F] rounded-2xl;
+}
+
+.grid-violet-color {
+  @apply p-6 bg-gradient-to-b from-[#8B5CF6] to-[#6D3FD6] rounded-2xl;
+}
 /* Contact Section*/
 .field-label {
   @apply text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70;

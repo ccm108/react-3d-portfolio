@@ -12,16 +12,15 @@ export const experiences = [
       ]
     },
     {
-      title: "Summer Undergraduate Research Intern",
+      title: "A.I. Research Assistant",
       company_name: "Bowie State University",
       icon: "/assets/logos/bsu1.png",
-      date: "May 2023 - Sep 2023",
+      date: "March 2026 - July 2026",
       points: [
-        "Engineered a real-time object recognition application for visually impaired users using Python, Java, and XML, integrating live video capture APIs and generating auditory feedback to enhance accessibility.",
-        "Designed and delivered technical presentations with visually engaging PowerPoint materials to communicate project goals, results, and system architecture during the Research Symposium.",
-        "Collaborated in an Agile team environment, managing strict deadlines, delegating tasks, and troubleshooting technical challenges to ensure on-time delivery.",
-        "Applied strategic planning and problem-solving skills to improve project workflows and resolve implementation issues effectively.",
-        "Strengthened programming proficiency while enhancing collaboration, adaptability, and communication skills in a multidisciplinary research setting."
+        "Benchmarked local Llama 3 model accuracy via Ollama by developing automated Python inference scripts to execute and log a dataset of 1,801 healthcare-related queries.",
+        "Quantified response alignment and semantic similarity by programming comparison scripts utilizing Sentence-BERT (SBERT) embedding vectors against baseline answer keys.",
+        "Engineered data visualization dashboards using Python to plot error density heatmaps, precision-recall curves, and F1-score distributions for weekly technical reporting.",
+        "Strengthened programming & automation proficiency while enhancing collaboration, adaptability, and communication skills in a multidisciplinary research setting."
       ]
     },
     

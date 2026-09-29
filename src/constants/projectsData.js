@@ -16,19 +16,6 @@ export const projects = [
     gradientClass: "grid-default-color",
   },
   {
-    name: "Adversary Emulation & Detection Engineering",
-    description:
-      "This project simulates several MITRE ATT&CK techniques using Atomic Red Team, and then collects every trace of activity using Sysmon. The goal is simple: run safe attacks, study the logs, and prove detection coverage.",
-    tags: [
-      { name: "ShellScripting", color: "text-[#33c2cc]" },
-      { name: "Cybersecurity", color: "text-[#ca2f8c]" },
-    ],
-    image: githubLogo,
-    source_code_link: "https://github.com/ccm108/Adversary-Emulation-and-Detection-Engineering",
-    live_project_link: null,
-    gradientClass: "grid-blue-color",
-  },
-  {
     name: "Network Traffic Analyzer",
     description:
       "Developed a Python-based network traffic analyzer that captures and inspects packet data to provide insights into network activity and communication patterns.",
@@ -41,4 +28,31 @@ export const projects = [
     live_project_link: null,
     gradientClass: "grid-special-color",
   },
+  {
+    name: "AWS IAM Security Audit Lab",
+    description:
+      "Built an AWS IAM security lab using Terraform to implement and audit least-privilege access controls. Configured role-based permissions, MFA enforcement, password policies, EC2 access restrictions, and IAM Access Analyzer to identify potential external access risks.",
+    tags: [
+      { name: "AWS", color: "text-[#33c2cc]" },
+      { name: "CloudSecurity", color: "text-[#ca2f8c]" },
+    ],
+    image: githubLogo,
+    source_code_link: "https://github.com/ccm108/IAM-audit-lab",
+    live_project_link: null,
+    gradientClass: "grid-cyan-color",
+  },
+  {
+    name: "Adversary Emulation & Detection Engineering",
+    description:
+      "This project simulates several MITRE ATT&CK techniques using Atomic Red Team, and then collects every trace of activity using Sysmon. The goal is simple: run safe attacks, study the logs, and prove detection coverage.",
+    tags: [
+      { name: "ShellScripting", color: "text-[#33c2cc]" },
+      { name: "Cybersecurity", color: "text-[#ca2f8c]" },
+    ],
+    image: githubLogo,
+    source_code_link: "https://github.com/ccm108/Adversary-Emulation-and-Detection-Engineering",
+    live_project_link: null,
+    gradientClass: "grid-emerald-color",
+  },
+  
 ];
